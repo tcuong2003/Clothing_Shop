@@ -1,5 +1,5 @@
 "use client";
-
+export const dynamic = "force-dynamic";
 import Pagination from "@/components/admin/Pagination";
 import PostModal from "@/components/admin/PostModal";
 import Spin from "@/components/admin/Spin";
