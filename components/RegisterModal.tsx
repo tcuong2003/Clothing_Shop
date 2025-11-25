@@ -121,7 +121,7 @@ export default function RegisterModal({ setOpenRegister, setOpenLogin }: Registe
                 </Link>
                 và{" "}
                 <Link href="/" className="font-semibold underline text-blue-600 mx-1">
-                  Chính sách của Clothing Shop
+                  Chính sách của Fashion_E-Commerce
                 </Link>
               </span>
             </label>

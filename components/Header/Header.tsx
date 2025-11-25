@@ -65,7 +65,7 @@ export default function Header() {
               className="rounded-md object-contain w-[50px] h-[50px] sm:w-[60px] sm:h-[60px]"
             />
             <span className="hidden sm:inline text-lg sm:text-2xl font-bold tracking-wide text-gray-900 hover:text-blue-600 transition-colors">
-              CLOTHING SHOP
+              Fashion E-Commerce
             </span>
           </Link>
         </div>

@@ -6,7 +6,7 @@ This is a Next.js project bootstrapped with [`create-next-app`](https://nextjs.o
 
 **Step 1:** Clone the repository
 ```bash
-git clone https://github.com/quynhdt04/do_an_CCNLTHD.git
+git clone https://github.com/tcuong2003/Fashion_E-Commerce.git
 ```
 
 **Step 2:** Install dependencies
