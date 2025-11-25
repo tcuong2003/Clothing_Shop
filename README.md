@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Demo
 
-View the live demo at: [https://do-an-ccnlthd.vercel.app/](https://do-an-ccnlthd.vercel.app/)
+View the live demo at: [https://fashion-e-commerce-smoky.vercel.app/](https://fashion-e-commerce-smoky.vercel.app/)
 
 ## Editing
 
