@@ -1,5 +1,5 @@
 "use client";
-export const dynamic = "force-dynamic";
+
 import Pagination from "@/components/admin/Pagination";
 import PostModal from "@/components/admin/PostModal";
 import Spin from "@/components/admin/Spin";
@@ -7,7 +7,7 @@ import { useURLParams } from "@/hooks/useURLParams";
 import postService from "@/services/postService";
 import { Post } from "@/types/post.type";
 import { Edit2, Plus, Search, Trash2 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { toast } from "sonner";
 import Swal from "sweetalert2";
 
@@ -109,7 +109,7 @@ export default function PostPage() {
   const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
 
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <div className="p-4">
         <div className="container-page">
           <div className="header-page">
@@ -203,6 +203,6 @@ export default function PostPage() {
           )}
         </div>
       </div>
-    </>
+    </Suspense>
   );
 }

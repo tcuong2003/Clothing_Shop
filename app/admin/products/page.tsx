@@ -1,5 +1,5 @@
 "use client";
-export const dynamic = "force-dynamic";
+
 import Pagination from "@/components/admin/Pagination";
 import ProductDetail from "@/components/admin/ProductDetail";
 import ProductModalAE from "@/components/admin/ProductModalAE";
