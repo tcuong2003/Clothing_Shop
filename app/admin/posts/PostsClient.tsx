@@ -1,16 +1,4 @@
-import React, { Suspense } from "react";
-export const dynamic = "force-dynamic";
-import PostsClient from "./PostsClient";
-
-export default function Page() {
-  return (
-    <Suspense fallback={<div className="p-4">Loading posts...</div>}>
-      <PostsClient />
-    </Suspense>
-  );
-}
 "use client";
-export const dynamic = "force-dynamic";
 import Pagination from "@/components/admin/Pagination";
 import PostModal from "@/components/admin/PostModal";
 import Spin from "@/components/admin/Spin";
@@ -25,7 +13,7 @@ import Swal from "sweetalert2";
 const ITEMS_PER_PAGE = 10;
 type ModalModeType = "add" | "edit";
 
-export default function PostPage() {
+export default function PostsClient() {
   const { params, updatePage, updateSearch, updateSort, getCurrentSortValue } =
     useURLParams(ITEMS_PER_PAGE);
   const [posts, setPosts] = useState<Post[]>([]);
