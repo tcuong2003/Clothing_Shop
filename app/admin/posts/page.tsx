@@ -1,14 +1,3 @@
-import React, { Suspense } from "react";
-export const dynamic = "force-dynamic";
-import PostsClient from "./PostsClient";
-
-export default function Page() {
-  return (
-    <Suspense fallback={<div className="p-4">Loading posts...</div>}>
-      <PostsClient />
-    </Suspense>
-  );
-}
 "use client";
 export const dynamic = "force-dynamic";
 import Pagination from "@/components/admin/Pagination";
